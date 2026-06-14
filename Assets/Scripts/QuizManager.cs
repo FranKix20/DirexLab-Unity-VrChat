@@ -89,9 +89,12 @@ public class QuizManager : UdonSharpBehaviour
                 {
                  b.gameObject.SetActive(false);
                 }
+            SendCustomEventDelayedSeconds(nameof(Resetear), 60f);        
         }
-        // Reset después de 1 minuto
-        SendCustomEventDelayedSeconds(nameof(Resetear), 60f);
+        else{
+            SendCustomEventDelayedSeconds(nameof(Resetear), 3f);
+            }
+        
     }
 
     // 🔹 FUNCIONES PARA BOTONES (UI / Udon)
