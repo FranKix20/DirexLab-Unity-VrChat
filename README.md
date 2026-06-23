@@ -297,16 +297,20 @@ docs: actualizar README con descripción de scripts
 
 ## Contribuidores
 
-| GitHub | Rol |
+| Nombre | Rol |
 |---|---|
-| [@FranKix20](https://github.com/FranKix20) | Desarrollador principal — scripting UdonSharp, modelado 3D, integración de assets |
-| Otros integrantes del equipo | Diseño de escena, materiales, paneles expositivos |
+| Bastian Encina | Líder |
+| Jhon Santa Cruz ([@Acuario22](https://github.com/Acuario22)) | Analista |
+| Benjamin Muñoz ([@bmunozs](https://github.com/bmunozs)) | Investigador |
+| Franco Quintuman ([@FranKix20](https://github.com/FranKix20)) | Desarrollador |
 
 ---
 
 ## Licencia
 
-Por Actualizar
+Este proyecto está licenciado bajo la **MIT License**. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+
+Los assets de terceros incluidos en este repositorio conservan sus propias licencias originales. Revisa los archivos de licencia dentro de cada carpeta de asset correspondiente antes de redistribuir.
 
 ---
 
