@@ -16,13 +16,14 @@ public class QuizManager : UdonSharpBehaviour
     public TMP_Text preguntaText;
     public TMP_Text textoExplicacion;
 
+    public TMP_Text TextoInferior;
+
     public GameObject panelExplicacion;
 
     public Button[] botones;
     public TMP_Text[] textosBotones;
 
     [Header("Colores")]
-    public Color colorCorrecto = Color.green;
     public Color colorIncorrecto = Color.red;
     public Color colorNormal = Color.white;
 
@@ -55,14 +56,16 @@ public class QuizManager : UdonSharpBehaviour
             botones[i].interactable = true;
         }
 
-        // Limpiar explicación
+        // Limpiar explicación y texto inferior
         textoExplicacion.text = "";
+
+        TextoInferior.text = "";
 
         // Ocultar panel
         panelExplicacion.SetActive(false);
     }
 
-    // 🔥 FUNCIÓN PRINCIPAL
+    // FUNCIÓN PRINCIPAL
     public void Responder(int index)
     {
         if (yaRespondio) return;
@@ -93,6 +96,7 @@ public class QuizManager : UdonSharpBehaviour
         }
         else{
             SendCustomEventDelayedSeconds(nameof(Resetear), 3f);
+            TextoInferior.text = "Respuesta Incorrecta";
             }
         
     }
