@@ -601,7 +601,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7a2568654af4bef4cad7a3dfa02c31b2, type: 2}
+      objectReference: {fileID: 2100000, guid: a5c253192b6c5b64b95a44d5a848e0cf, type: 2}
     - target: {fileID: -8949399863845932026, guid: 37f14cd64c0d617468007ca8b733a39f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -696,7 +696,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7a2568654af4bef4cad7a3dfa02c31b2, type: 2}
+      objectReference: {fileID: 2100000, guid: a5c253192b6c5b64b95a44d5a848e0cf, type: 2}
     - target: {fileID: -7470040660765386364, guid: 37f14cd64c0d617468007ca8b733a39f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -751,7 +751,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7a2568654af4bef4cad7a3dfa02c31b2, type: 2}
+      objectReference: {fileID: 2100000, guid: a5c253192b6c5b64b95a44d5a848e0cf, type: 2}
     - target: {fileID: -4625707559570507665, guid: 37f14cd64c0d617468007ca8b733a39f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -826,7 +826,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7a2568654af4bef4cad7a3dfa02c31b2, type: 2}
+      objectReference: {fileID: 2100000, guid: a5c253192b6c5b64b95a44d5a848e0cf, type: 2}
     - target: {fileID: -568346097135261382, guid: 37f14cd64c0d617468007ca8b733a39f,
         type: 3}
       propertyPath: m_IsActive
@@ -876,7 +876,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7a2568654af4bef4cad7a3dfa02c31b2, type: 2}
+      objectReference: {fileID: 2100000, guid: a5c253192b6c5b64b95a44d5a848e0cf, type: 2}
     - target: {fileID: 2681938641244467857, guid: 37f14cd64c0d617468007ca8b733a39f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4100,7 +4100,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 503536719}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - Coherencia
   - Transparencia
@@ -7563,7 +7563,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 0.03
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -11619,7 +11619,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5914605485070678643, guid: 3f22ef9c3a353ba4db0e2374df6e372d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1155560839}
   m_SourcePrefab: {fileID: 100100000, guid: 3f22ef9c3a353ba4db0e2374df6e372d, type: 3}
 --- !u!4 &1155560837 stripped
 Transform:
@@ -11627,6 +11631,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1155560836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1155560838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5914605485070678643, guid: 3f22ef9c3a353ba4db0e2374df6e372d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1155560836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1155560839
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155560838}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6692290496178104961, guid: f181942ca5db2cb4d9c7761b4ba89546, type: 3}
 --- !u!1 &1169050050
 GameObject:
   m_ObjectHideFlags: 0
@@ -14321,18 +14353,18 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1367965746}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - "Unidad y Fragmentaci\xF3n"
   - Simplicidad y Complejidad
   - "Reticencia y Exageraci\xF3n"
   - Equilibrio e Inestabilidad
   respuestaCorrecta: 0
-  explicacion: "\xA1Increible! Unidad: La unidad se logra cuando elementos variados
-    se combinan armoniosamente en un todo que podemos apreciar visualmente como equilibrado.  
+  explicacion: "\xA1Incre\xEDble! Unidad: La unidad se logra cuando elementos variados
+    se combinan armoniosamente en un todo que podemos apreciar visualmente como equilibrado.
     Fragmentaci\xF3n: La fragmentaci\xF3n ocurre cuando los elementos y unidades
     de un dise\xF1o se dividen en piezas distintas que, aunque interact\xFAan entre
-    s\xED, mantienen su identidad individual.  "
+    s\xED, mantienen su identidad individual."
   preguntaText: {fileID: 1441616885}
   textoExplicacion: {fileID: 775342944}
   TextoInferior: {fileID: 1350287392}
@@ -15592,20 +15624,20 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1471530275}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
-  - Simetria y Asimetria
+  - "Simetr\xEDa y Asimetr\xEDa"
   - Equilibrio e Inestabilidad
   - Regularidad e Irregularidad
   - Minimalismo y Maximalismo
   respuestaCorrecta: 0
   explicacion: "La simetr\xEDa es una correspondencia exacta en tama\xF1o, forma
     y posici\xF3n entre las partes de un objeto, figura o sistema respecto a un punto,
-    transmite orden, equilibrio y armon\xEDa.La asimetr\xEDa es la falta de simetr\xEDa,
+    transmite orden, equilibrio y armon\xEDa. La asimetr\xEDa es la falta de simetr\xEDa,
     es decir, la ausencia de proporciones equilibradas o correspondencia exacta en
-    forma, tama\xF1o o posici\xF3n entre las partes de un todo.   Es la ausencia
-    de equilibrio exacto, donde los elementos se combinan de forma desigual pero
-    mantienen un balance visual din\xE1mico y atractivo."
+    forma, tama\xF1o o posici\xF3n entre las partes de un todo. Es la ausencia de
+    equilibrio exacto, donde los elementos se combinan de forma desigual, pero mantienen
+    un balance visual din\xE1mico y atractivo."
   preguntaText: {fileID: 1565650197}
   textoExplicacion: {fileID: 2008641298}
   TextoInferior: {fileID: 155112065}
@@ -16906,7 +16938,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1617190453}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - Continuidad y Episodicidad
   - Plana y Profunda
@@ -17104,16 +17136,16 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1635911167}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - Equilibrio
-  - Simetria
+  - "Simetr\xEDa"
   - Irregularidad
   - Maximalismo
   respuestaCorrecta: 1
-  explicacion: "\xA1As\xED es! El concepto que se ven en estas dos imagenes es el
-    concepto de la s\xEDmetria. Por como se puede ver, ambas obras tienen un equilibrio
-    simetrico a lo largo del eje central, manteniendo un equilibrio y provocando
+  explicacion: "\xA1As\xED es! El concepto que se ven en estas dos im\xE1genes es
+    el concepto de la simetr\xEDa. Por como se puede ver, ambas obras tienen un equilibrio
+    sim\xE9trico a lo largo del eje central, manteniendo un equilibrio y provocando
     paz."
   preguntaText: {fileID: 1792716185}
   textoExplicacion: {fileID: 379945669}
@@ -18277,7 +18309,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1808277752}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - "Econom\xEDa"
   - "Profusi\xF3n"
@@ -18414,7 +18446,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1817369093}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - Audacia
   - Pasividad
@@ -18424,7 +18456,7 @@ MonoBehaviour:
   explicacion: "\xA1Muy bien! En dise\xF1o y arquitectura, la unidad es un principio
     organizativo que asegura que todos los elementos individuales de un proyecto
     (como formas, colores, materiales y espacios) trabajen juntos como un todo coherente. 
-    es un principio organizativo que asegura que todos los elementos individuales
+    Es un principio organizativo que asegura que todos los elementos individuales
     de un proyecto (como formas, colores, materiales y espacios) trabajen juntos
     como un todo coherente. Evita que un dise\xF1o parezca ca\xF3tico o improvisado."
   preguntaText: {fileID: 1970952585}
@@ -19084,14 +19116,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1860223710}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23253395c2d8c1e45a4aa858979e0bd7,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1860223714}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23253395c2d8c1e45a4aa858979e0bd7,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1860223715}
   m_SourcePrefab: {fileID: 100100000, guid: 23253395c2d8c1e45a4aa858979e0bd7, type: 3}
 --- !u!1 &1860223709 stripped
 GameObject:
@@ -19121,52 +19145,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1089906773961968353, guid: 23253395c2d8c1e45a4aa858979e0bd7, type: 3}
---- !u!114 &1860223714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860223709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1073094524, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerMobility: 1
-  canUseStationFromStation: 1
-  animatorController: {fileID: 0}
-  disableStationExit: 0
-  seated: 1
-  stationEnterPlayerLocation: {fileID: 0}
-  stationExitPlayerLocation: {fileID: 0}
-  controlsObject: {fileID: 0}
---- !u!114 &1860223715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860223709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactTextPlacement: {fileID: 0}
-  interactText: Use
-  interactTextGO: {fileID: 0}
-  proximity: 2
-  SynchronizePosition: 0
-  AllowCollisionOwnershipTransfer: 1
-  Reliable: 0
-  _syncMethod: 2
-  serializedProgramAsset: {fileID: 11400000, guid: acb578b37584b4640a0e7800a100e321,
-    type: 2}
-  programSource: {fileID: 11400000, guid: 4715e20276be3b141a6a216230cab4e9, type: 2}
-  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUHBQ==
-  publicVariablesUnityEngineObjects: []
-  publicVariablesSerializationDataFormat: 0
 --- !u!1 &1864253531
 GameObject:
   m_ObjectHideFlags: 0
@@ -20065,11 +20043,11 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1961969632}
-  pregunta: "\xBFQu\xE9 concepto muestran las imagenes?"
+  pregunta: "\xBFQu\xE9 concepto muestran las im\xE1genes?"
   respuestas:
   - Neutralidad y Acento
   - Sutileza y Audacia
-  - Regularridad e Irregularidad
+  - Regularidad e Irregularidad
   - "Realismo y Distorsi\xF3n"
   respuestaCorrecta: 2
   explicacion: "Regularidad: En el dise\xF1o, la regularidad implica fomentar la
